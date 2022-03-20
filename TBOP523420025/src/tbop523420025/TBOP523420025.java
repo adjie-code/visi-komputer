@@ -32,7 +32,7 @@ public class TBOP523420025 {
         int n = kata.length();
         return n;
     }
-    
+    //Created By Firgoadjie
     public String hapuspartikel(String kata){
         kata = kata.toLowerCase();
 	if("kah".equals(kata.substring(panjangkata(kata)-3)) ||"lah".equals(kata.substring(panjangkata(kata)-3)) ||"pun".equals(kata.substring(panjangkata(kata)-3)) ){
